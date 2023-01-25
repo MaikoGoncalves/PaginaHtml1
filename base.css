@@ -1,0 +1,300 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    display: flex;
+    width: 30%;
+    padding: 10px 15px 0;
+    text-transform: capitalize;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuLogo {
+    margin-top: 50px;
+    border-bottom: solid 1px rgb(17, 170, 153);
+    padding: 10px;
+}
+
+.menu-menu {
+    margin-top: 50px;
+
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header {
+    min-height: 150px;
+    box-shadow: -9px 16px 22px 5px rgba(0, 0, 0, 0.64);
+}
+
+.header img {
+    width: 100%;
+}
+
+.content-index {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: black;
+    min-height: 300px;
+    padding: 20px;
+    box-shadow: -9px 16px 22px 5px rgb(0 0 0 / 64%);
+
+}
+
+.content .cont {
+    display: flex;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 800;
+    align-items: center;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    min-height: 150px;
+    margin-block-end: 5px;
+}
+
+.footer h2 {
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer ul li {
+    margin-right: 25px;
+    padding: 10px;
+
+}
+
+.footer-direita {
+    color: black;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.footer-esquerda {
+    color: black;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+}
+
+/* Final do index.html */
+/* Inicio do sobre.html */
+.content-sobre {
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 800;
+    align-items: center;
+    color: black;
+    min-height: 300px;
+    padding: 20px;
+    box-shadow: -9px 16px 22px 5px rgb(0 0 0 / 64%);
+}
+
+.footer-direita {
+    color: black;
+
+}
+
+/* Final do sobre.html */
+/* Inicio do horario.html */
+
+.content-horario {
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 800;
+    align-items: center;
+    color: black;
+    min-height: 300px;
+    padding: 20px;
+    box-shadow: -9px 16px 22px 5px rgb(0 0 0 / 64%);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Final do horario.html */
+/* Inicio do contato.html */
+
+.content-contato {
+    display: flex;
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 800;
+    align-items: center;
+    color: black;
+    min-height: 300px;
+    padding: 20px;
+    box-shadow: -9px 16px 22px 5px rgb(0 0 0 / 64%);
+}
+
+form {
+    width: 80%;
+    /* define a largura do formulário */
+    margin: 0 auto;
+    /* centraliza o formulário na página */
+    padding: 20px;
+    /* adiciona um espaçamento interno */
+    background-color: #f2f2f2;
+    /* define a cor de fundo */
+    border-radius: 10px;
+    /* define bordas arredondadas */
+}
+
+label {
+    font-size: 18px;
+    /* define o tamanho da fonte */
+    font-weight: bold;
+    /* define o estilo da fonte */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    /* define a largura dos campos de texto */
+    padding: 12px 20px;
+    /* define o espaçamento interno */
+    margin: 8px 0;
+    /* define o espaçamento externo */
+    box-sizing: border-box;
+    /* define como os elementos são dimensionados */
+    border: 2px solid #ccc;
+    /* define a borda dos campos de texto */
+    border-radius: 4px;
+    /* define bordas arredondadas */
+    font-size: 16px;
+    /* define o tamanho da fonte */
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 100%;
+    /* define a largura dos botões */
+    background-color: #4CAF50;
+    /* define a cor de fundo dos botões */
+    color: white;
+    /* define a cor da fonte dos botões */
+    padding: 14px 20px;
+    /* define o espaçamento interno */
+    margin: 8px 0;
+    /* define o espaçamento externo */
+    border: none;
+    /* remove a borda dos botões */
+    border-radius: 4px;
+    /* define bordas arredondadas */
+    cursor: pointer;
+    /* define o cursor do mouse */
+    font-size: 16px;
+    /* define o tamanho da fonte */
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+    /* define a cor de fundo dos botões quando o mouse passa por cima */
+}
+
+.whatsapp-btn {
+    width: 30px;
+    height: 35px;
+    background-color: green;
+    /* define a cor de fundo */
+    padding: 12px 20px;
+    /* define o espaçamento interno */
+    border-radius: 50%;
+    /* define bordas arredondadas */
+    display: inline-block;
+    /* define como o botão é exibido */
+    position: relative;
+    /* define a posição do botão */
+}
+
+.whatsapp-btn img {
+    width: 35px;
+    /* define a largura da imagem */
+    height: auto;
+    /* define a altura da imagem */
+    position: absolute;
+    /* define a posição da imagem */
+    top: 50%;
+    /* centraliza a imagem verticalmente */
+    left: 50%;
+    /* centraliza a imagem horizontalmente */
+    transform: translate(-50%, -50%);
+    /* centraliza a imagem */
+}
+
+.whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
